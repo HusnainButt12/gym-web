@@ -66,7 +66,7 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        <div className="md:hidden flex items-center p-2" onClick={handleChange}>
+        <div className="md:hidden flex items-center p-2 text-gray-700" onClick={handleChange}>
           <AiOutlineMenuUnfold size={28} />
         </div>
       </div>
